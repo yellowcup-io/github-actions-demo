@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Greeting
-        run: echo "Hello GH Simple Action"
+        run: | 
+          echo "Hello GH Simple Action"
+          echo "This is second line"
       - name: Print Goodbye
         run: echo "Done with first job"
