@@ -10,6 +10,9 @@ on:
     branches:
         - 'main'
         - 'dev'
+    paths-ignore:
+        - 'README.md'
+        - .github/workflows/*
   pull_request:
     types: 
         - opened
